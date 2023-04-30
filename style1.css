@@ -23,7 +23,21 @@ nav.navbar a:hover {
     width: 550px;
     filter: drop-shadow(0 10px);
 }
-
+#logo-color i img{
+    width: 30px;
+    margin: 10px;
+}
+.navbar-brand{
+    margin-left: 50px;
+    color: rgba(255,166,0);
+    font-weight: bold;
+}
+#menu-color{
+    background-color: rgba(255,166,0);
+}
+.navbar-brand:hover{
+    color: rgba(255,166,0);
+}
 .header p {
     font-size: 40px;    
     font-family: 'Sigmar', cursive  ;
