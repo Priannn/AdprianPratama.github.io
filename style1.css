@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Poppins:wght@700&family=Sigmar&display=swap');
+
+
+
+* {
+    list-style: none;
+}
+nav.navbar {
+    background: #ffa45900;
+}
+nav.navbar a {
+    color: rgba(0, 0, 0, 0.797);
+    font-family: 'Sigmar', cursive  ;
+    font-size: 22px;
+}
+nav.navbar a:hover {
+   transition: 0.5s;
+   background-color: orange;
+   padding: 10px;
+   border-radius: 20px;
+}
+.right-img .img-1{
+    width: 550px;
+    filter: drop-shadow(0 10px);
+}
+
+.header p {
+    font-size: 40px;    
+    font-family: 'Sigmar', cursive  ;
+    width: 500px;
+    color: #FFA559;
+    
+}
+.subheader img {
+    width: 50px;
+    height: auto;
+}
+.subheader p {
+    margin-left: 45px;
+    margin-bottom: 25px;   
+}
+.subheader a {
+    text-decoration: none;
+    background-color: #FFA559;
+    color: rgba(41, 8, 8, 0.769);
+    padding: 10px;
+    border-radius: 10px;     
+    font-family: 'Poppins', cursive  ;
+    margin-left: 80px;
+}
+.subheader a:hover {
+    transition: 1s;
+}
+
+/* Menu */
+
+.menu {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#btn3 button{
+    width: 150px;
+    height: 35px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border: none;
+    background-color: rgba(255,166,0);
+    transition: 0.5s ease-in;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#btn3 button:hover{
+    background-color: black;
+    color: white;
+}
+#btn3{
+    text-align: center;
+}
+/* card */
+
+.card{
+    box-shadow: 0px 0px 5px black;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    margin: auto;
+}
+.best-card .card:hover{
+    transform: translateY(-15px);
+}
+.best-card h1{
+    font-weight: bold;
+    color: white;
+    text-shadow:  2px 1px 5px black;
+}
+.best-card p{
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 1px 5px black;
+}
+
+/* footer */
+
+#footer{
+    background-color: black;
+    padding: 30px 0;
+    font-size: 14px;
+    margin-top: 50px;
+}
+#footer .footer-links a{
+    color: white;
+    font-weight: bold;
+    padding-left: 15px;
+}
+#footer .footer-links a:first-child{
+    padding-left: 0;
+}
+#footer .footer-links a:hover{
+    color: rgba(255,166,0);
+}
+.copyright{
+    color: white;
+}
+#btn1 button{
+    width: 200px;
+    height: 35px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background-color: rgba(255,166,0);
+    border: none;
+    transition: 0.3s ease;
+    cursor: pointer;
+    border-radius: 20px;
+
+}#btn1 button:hover{
+    background-color: rgba(255,166,0);
+    box-shadow: 0 0 5px rgba(255, 166, 0, 0.395),
+                 0 0 20px rgba(255, 166, 0, 0.279),
+                 0 0 60px rgba(255, 166, 0, 0.596),
+                 0 0 150px rgba(255, 166, 0, 0.292);
+}
+
+
